@@ -1,0 +1,3 @@
+#! /bin/bash
+echo "YOLO"
+rm $0
