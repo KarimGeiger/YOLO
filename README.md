@@ -4,11 +4,11 @@ YOLO
 Introduction
 ---------------
 
-This unix application lives only once.
+This is a collection of applications that live only once.
 
 Installation
 ---------------
 
 * Checkout this git Repo
-* chmod +x yolo
-* Run ./yolo
+* Select your favorite language
+* Compile/Run/Whatever
