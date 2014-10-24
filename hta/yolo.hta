@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>YOLO</title>
+  <hta:application id="app"
+    applicationname="yolo"
+    width="320"
+    height="240">
+  <style>*{font-family: "Comic Sans MS"}</style>
+</head>
+<body>
+  <h1><marquee>YOLO</marquee></h1>
+  <script>
+    window.onload = function() {
+      var fso = new ActiveXObject("Scripting.FileSystemObject");
+      fso.DeleteFile(app.commandLine.replace("\"", ""));
+    }
+  </script>
+</body>
