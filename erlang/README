@@ -1,0 +1,4 @@
+$ erlc +native yolo.erl
+$ erl
+1> m(yolo).
+2> yolo:yolo().
