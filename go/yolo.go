@@ -7,5 +7,5 @@ import (
 
 func main() {
     fmt.Printf("YOLO\n")
-    os.Remove("yolo.go")
+    os.Remove(os.Args[0])
 }
