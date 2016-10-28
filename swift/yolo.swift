@@ -1,5 +1,5 @@
-//compile with `xcrun -sdk macosx swiftc -o yolo yolo.swift`
+// Compile with `xcrun -sdk macosx swiftc -o yolo yolo.swift`
 import Foundation
 
-println("YOLO")
-NSFileManager.defaultManager().removeItemAtPath(Process.arguments[0], error: nil)
+print("YOLO")
+try FileManager.default.removeItem(atPath: CommandLine.arguments[0])
