@@ -1,0 +1,15 @@
+{
+  "name": "yolo",
+  "version": "1.0.0",
+  "description": "yolo in emotinomicon",
+  "main": "yolo.js",
+  "dependencies": {
+    "mathjs": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node yolo.js"
+  },
+  "author": "Robin B. <robin@broda.me>",
+  "license": "Beerware"
+}
